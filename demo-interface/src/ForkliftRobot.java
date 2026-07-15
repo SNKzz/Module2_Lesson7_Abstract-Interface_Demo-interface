@@ -1,4 +1,4 @@
-public class ForkliftRobot extends Robot {
+public class ForkliftRobot extends Robot implements Actions {
     private String id;
     private int battery;
 

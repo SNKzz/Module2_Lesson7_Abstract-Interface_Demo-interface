@@ -1,4 +1,4 @@
-public abstract class Robot implements Actions {
+public abstract class Robot {
     protected String id;
     protected int battery;
 
@@ -11,5 +11,7 @@ public abstract class Robot implements Actions {
     }
 
     protected abstract String work();
+
+    protected abstract String charge();
 
 }

@@ -17,11 +17,6 @@ public class WeldingRobot extends Robot {
     }
 
     @Override
-    public String move() {
-        return "- Stay only, cant move.";
-    }
-
-    @Override
     public String charge() {
         return "- Use 220W to connect with device, no battery.";
     }

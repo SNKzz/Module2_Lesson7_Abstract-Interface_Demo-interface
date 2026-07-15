@@ -1,4 +1,4 @@
-public class CameraDrone extends Robot {
+public class CameraDrone extends Robot implements Actions {
     private String id;
     private int battery;
 
